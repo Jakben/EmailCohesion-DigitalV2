@@ -7,5 +7,12 @@
             "email": "inkybloo@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload" :  {
+    	"classmap" : [
+    	"app/Email/Repositories;"
+    	]
+    }
+
+    
 }
