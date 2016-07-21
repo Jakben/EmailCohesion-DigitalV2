@@ -6,4 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Email\\Repositories\\AddressRepository' => $baseDir . '/app/Email/Repositories/AddressRepository.php',
+    'Email\\Repositories\\MailerRepository' => $baseDir . '/app/Email/Repositories/MailerRepository.php',
 );

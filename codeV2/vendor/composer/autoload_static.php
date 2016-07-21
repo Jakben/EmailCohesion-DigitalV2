@@ -6,9 +6,15 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit78f69e91fdb1f4ecbcb953b1a6edc527
 {
+    public static $classMap = array (
+        'Email\\Repositories\\AddressRepository' => __DIR__ . '/../..' . '/app/Email/Repositories/AddressRepository.php',
+        'Email\\Repositories\\MailerRepository' => __DIR__ . '/../..' . '/app/Email/Repositories/MailerRepository.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->classMap = ComposerStaticInit78f69e91fdb1f4ecbcb953b1a6edc527::$classMap;
 
         }, null, ClassLoader::class);
     }

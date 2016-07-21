@@ -1,5 +1,5 @@
 <?php namespace Email\Repositories;
-
+use Email\Repositories\MailerRepository;
 
 $mailer = new MailerRepository();
 

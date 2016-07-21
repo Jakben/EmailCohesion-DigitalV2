@@ -10,7 +10,7 @@
     "require": {},
     "autoload" :  {
     	"classmap" : [
-    	"app/Email/Repositories;"
+    	"app/Email/Repositories"
     	]
     }
 
