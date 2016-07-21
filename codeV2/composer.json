@@ -1,0 +1,11 @@
+{
+    "name": "jack/code-v2",
+    "description": "Testing to see if composer will work for AutoLoading",
+    "authors": [
+        {
+            "name": "Jack Donaldson",
+            "email": "inkybloo@gmail.com"
+        }
+    ],
+    "require": {}
+}
